@@ -1,0 +1,6 @@
+[submodule "web_app"]
+	path = web_app
+	url = git@github.com:summation-app/web_app.git
+[submodule "web_server"]
+	path = web_server
+	url = git@github.com:summation-app/web_server.git

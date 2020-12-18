@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  web_server:
+    build: ../web_server
+    environment:
+        - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+        - PORT=8000
+    ports:
+      - 8000:8000
+    volumes:
+      - web_server_data:/var/lib/summation_web_server
+    depends_on:
+      - db
+
+  web_app:
+    build: ../web_app
+    ports:
+      - 8080:8080
+    depends_on:
+      - web_server
+
+  db:
+    image: postgres:latest
+    environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=${ADMIN_PASSWORD}
+        - POSTGRES_DB=postgres
+    ports:
+        - "5433:5432"
+    volumes:
+        - dbdata:/var/lib/postgresql/data
+
+volumes:
+  dbdata:
+  web_server_data:
