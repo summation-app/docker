@@ -12,9 +12,10 @@ Features:
 
 Please ensure you have [Docker](https://docs.docker.com/get-docker/) installed.  Then from the command line:
 
-    curl -o docker-compose.yml https://cdn.jsdelivr.net/gh/summation-app/summation/docker/docker-compose-production.yml
+    curl -o docker-compose.yml https://cdn.jsdelivr.net/gh/summation-app/docker/docker-compose-production.yml
     export ADMIN_PASSWORD=YOUR_PASSWORD_HERE
-    docker-compose up
+    docker-compose up # add '-d' to the end of this command to run in the background
+    
 You can then login by visiting: http://yourhost:8080
 
 # Security
