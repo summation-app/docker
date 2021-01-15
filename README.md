@@ -1,5 +1,8 @@
 # 1 API for all your apps' data
 
+[![](summation_dataflow.png "Summation DataFlow")](https://www.summation.app/assets/img/summation_dataflow.png)
+
+
 A data gateway to securely query databases & third-party APIs from apps using SQL & REST, respectively.  Authenticates users via JSON Web Tokens (JWTs), checks if the query/request is allowed, and then proxies data to your app.
 
 Features:
