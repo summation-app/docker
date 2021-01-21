@@ -10,6 +10,10 @@ Features:
 * Clients for the <a href='https://github.com/summation-app/web_client'>web</a> (Javascript), <a href='https://github.com/summation-app/iOS_client'>iOS</a> (Swift), and <a href='https://github.com/summation-app/android_client'>Android</a> (Kotlin)
 * Centralized logging to AWS, DataDog, Splunk, Elasticsearch & more
 
+ | 
+:-------------------------:|:-------------------------:
+![](https://www.summation.app/assets/img/add_api.png)  |  ![](https://www.summation.app/assets/img/approved_queries.png)
+
 # Installation
 
 Please ensure you have [Docker](https://docs.docker.com/get-docker/) installed.  Then from the command line:
