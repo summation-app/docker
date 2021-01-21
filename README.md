@@ -58,10 +58,11 @@ Every time your apps need to read or write data to a database or third-party API
  - [F.A.Q.](https://docs.summation.app/project/frequently-asked-questions)
  - [full API documentation](https://docs.summation.app/web-client-api/database-queries)
 
-# Support
+# Support & Resources
 
 * We monitor StackOverflow questions [tagged with #summation](https://stackoverflow.com/questions/tagged/summation)
 * [Bug Reports](https://github.com/summation-app/summation/issues)
+* [Blog / Newsletter](https://blog.summation.app)
 
 # Development & Testing
 
