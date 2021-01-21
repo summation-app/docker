@@ -10,9 +10,18 @@ Features:
 * Clients for the <a href='https://github.com/summation-app/web_client'>web</a> (Javascript), <a href='https://github.com/summation-app/iOS_client'>iOS</a> (Swift), and <a href='https://github.com/summation-app/android_client'>Android</a> (Kotlin)
 * Centralized logging to AWS, DataDog, Splunk, Elasticsearch & more
 
- | 
-:-------------------------:|:-------------------------:
-![](https://www.summation.app/assets/img/add_api.png)  |  ![](https://www.summation.app/assets/img/approved_queries.png)
+<p align="middle">
+ <table style="border: 0px; text-align: middle">
+  <tr>
+   <td><img src="https://www.summation.app/assets/img/add_api.png" width="400" style="margin: 10px" /></td>
+   <td><img src="https://www.summation.app/assets/img/approved_queries.png" width="400" style="margin: 10px" /></td>
+  </tr>
+  <tr>
+   <td>Adding an API</td>
+   <td>Toggle approved queries on/off</td>
+  </tr>
+  </table>
+</p>
 
 # Installation
 
