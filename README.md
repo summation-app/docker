@@ -1,5 +1,7 @@
 # 1 API for all your apps' data
 
+![](https://www.summation.app/assets/img/summation_dataflow.png)
+
 A data gateway to securely query databases & third-party APIs from apps using SQL & REST, respectively.  Authenticates users via JSON Web Tokens (JWTs), checks if the query/request is allowed, and then proxies data to your app.
 
 Features:
@@ -7,6 +9,19 @@ Features:
 * Supports authentication via Firebase, Okta, AWS Cognito, Auth0, and JWT
 * Clients for the <a href='https://github.com/summation-app/web_client'>web</a> (Javascript), <a href='https://github.com/summation-app/iOS_client'>iOS</a> (Swift), and <a href='https://github.com/summation-app/android_client'>Android</a> (Kotlin)
 * Centralized logging to AWS, DataDog, Splunk, Elasticsearch & more
+
+<p align="middle">
+ <table style="border: 0px; text-align: middle">
+  <tr>
+   <td><img src="https://www.summation.app/assets/img/add_api.png" width="400" style="margin: 10px" /></td>
+   <td><img src="https://www.summation.app/assets/img/approved_queries.png" width="400" style="margin: 10px" /></td>
+  </tr>
+  <tr>
+   <td>Adding an API</td>
+   <td>Toggle approved queries on/off</td>
+  </tr>
+  </table>
+</p>
 
 # Installation
 
@@ -43,10 +58,11 @@ Every time your apps need to read or write data to a database or third-party API
  - [F.A.Q.](https://docs.summation.app/project/frequently-asked-questions)
  - [full API documentation](https://docs.summation.app/web-client-api/database-queries)
 
-# Support
+# Support & Resources
 
 * We monitor StackOverflow questions [tagged with #summation](https://stackoverflow.com/questions/tagged/summation)
 * [Bug Reports](https://github.com/summation-app/summation/issues)
+* [Blog / Newsletter](https://blog.summation.app)
 
 # Development & Testing
 
