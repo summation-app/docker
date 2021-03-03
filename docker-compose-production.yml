@@ -15,6 +15,8 @@ services:
 
   web_app:
     image: summationapp/web_app:latest
+    environment:
+      - VUE_APP_API_PREFIX=8000
     ports:
       - 8080:8080
     depends_on:
