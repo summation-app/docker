@@ -27,7 +27,7 @@ Features:
 
 Please ensure you have [Docker](https://docs.docker.com/get-docker/) installed.  Then from the command line:
 
-    curl -o docker-compose.yml https://cdn.jsdelivr.net/gh/summation-app/docker/docker-compose-production.yml
+    curl -o docker-compose.yml https://raw.githubusercontent.com/summation-app/docker/main/docker-compose-production.yml
     export ADMIN_PASSWORD=YOUR_PASSWORD_HERE
     docker-compose up # add '-d' to the end of this command to run in the background
     
